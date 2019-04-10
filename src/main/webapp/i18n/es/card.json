@@ -1,0 +1,24 @@
+
+{
+    "cardsApp": {
+        "card" : {
+            "home": {
+                "title": "Cards",
+                "createLabel": "Crear nuevo Card",
+                "createOrEditLabel": "Crear o editar Card"
+            },
+            "created": "Un nuevo Card ha sido creado con el identificador {{ param }}",
+            "updated": "Un Card ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Card ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Card {{ id }}?"
+            },
+            "detail": {
+                "title": "Card"
+            },
+            "cardNumber": "Card Number",
+            "bankName": "Bank Name",
+            "expiryDate": "Expiry Date"
+        }
+    }
+}
