@@ -55,7 +55,7 @@ public class UploadCsvResource {
      */
     @PostMapping(path = "/csv", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
     @Timed
-    public ResponseEntity<String> uploadCards(@RequestParam("inputStream") MultipartFile inputStream) throws URISyntaxException {
+    public ResponseEntity<String> uploadCards(@RequestParam("csvFile") MultipartFile inputStream) throws URISyntaxException {
         log.debug("POST request received to upload cards from provided file");
 
         int lineNumber = 0;

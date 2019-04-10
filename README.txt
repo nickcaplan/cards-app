@@ -13,4 +13,4 @@ Viewing (H2) database
 
 Uploading cards via CSV file
 - Send POST request to http://localhost:8080/upload/csv (I use Postman)
-- Include file as form-data with key "inputData"
+- Include file as form-data with key "csvFile"
