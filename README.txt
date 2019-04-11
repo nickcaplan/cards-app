@@ -1,6 +1,6 @@
 How to run the Cards application
 - Clone the repository
-- Build and start the backend app with: "mvn clean install"
+- Start the backend app with: "mvnw" (or using Jetty in your IDE)
 - Start the frontend app (in a separate command window) with: "yarn start" (will need to have yarn installed)
 - Navigate to `http://localhost:9000`
 - Log in as admin/admin (under Account)
